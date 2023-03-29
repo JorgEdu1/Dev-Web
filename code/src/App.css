@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: relative;
+  border-radius: 8px;
+}
 .App {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 80%;
+  padding: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 350px;
+  border-radius: 8px;
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
