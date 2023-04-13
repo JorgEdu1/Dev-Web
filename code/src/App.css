@@ -6,6 +6,9 @@
   position: relative;
   border-radius: 8px;
 }
+button{
+  color: black;
+}
 .App {
   background-color: rgba(0, 0, 0, 0.5);
   width: 80%;
@@ -16,8 +19,8 @@
   transform: translate(-50%, -50%);
   margin-top: 350px;
   border-radius: 8px;
-  text-align: center;
-  align-items: center;
+  /*text-align: center;*/
+  /*align-items: center;*/
 }
 
 .App-logo {

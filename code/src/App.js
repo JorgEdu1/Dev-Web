@@ -1,10 +1,18 @@
 //import logo from './logo.svg';
+//import { Component } from 'react';
 import './App.css';
 //import Dados from "./components/01MeusDados"; 
 //import Dados from "./components/02MeusDados"; 
 //import Temperatura from "./components/03Temperatura"
 //import Pai from "./components/atividade01/01Pai"
-import FuncaoA from './components/06Contexto/FuncaoA';
+//import FuncaoA from './components/06Contexto/FuncaoA';
+//import FunctionContextA from './components/atividade02/q1/FunctionContextA';
+//import Avo from './components/atividade02/q2/ComponenteAvo';
+//import {SaveData, LoadData} from './components/07Storage/MyStorage';
+//import Pai from './components/08PaiFilho/Pai';
+//import Contador from './components/09Estados/Contador';
+//import Votos from './components/atividade03/votos';
+import VotaCidades from './components/atividade03/VotosV2';
 
 function App() {
   return (
@@ -12,7 +20,7 @@ function App() {
       <Temperatura/>
     </div>*/
     <div className='App'>
-      <FuncaoA/>
+      <VotaCidades/>
     </div>
     //<Dados name="Jorge Eduardo" curso="CC" facul="UFC" />
     /*<div className='App'> 
