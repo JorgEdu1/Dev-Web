@@ -12,7 +12,9 @@ import './App.css';
 //import Pai from './components/08PaiFilho/Pai';
 //import Contador from './components/09Estados/Contador';
 //import Votos from './components/atividade03/votos';
-import VotaCidades from './components/atividade03/VotosV2';
+//import VotaCidades from './components/atividade03/VotosV2';
+//import PokemonAxios from './components/10Axios/PokemonAxios'
+import TelaPrincipal from './components/11Redux/v1/TelaPrincipal'
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
       <Temperatura/>
     </div>*/
     <div className='App'>
-      <VotaCidades/>
+      <TelaPrincipal/>
     </div>
     //<Dados name="Jorge Eduardo" curso="CC" facul="UFC" />
     /*<div className='App'> 
