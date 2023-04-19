@@ -1,34 +1,24 @@
-import { useState } from "react"
 import BotaoDecrementar from "./BotaoDecrementar"
 import BotaoIncrementar from "./BotaoIncrementar"
 import Imagem from "./Imagem"
 
 const TelaPrincipal = () => {
-    const [id, setId] = useState(1)
-
-    const incrementar = () => {
-        setId((prev)=>prev+1)
-    }
-
-    const decrementar = () => {
-        setId((prev)=>(prev-1)<1?1:prev-1)
-    }
-
+    
     return (
         <>
             <table>
                 <tbody>
                     <tr>
                         <td colSpan={2}>
-                            <Imagem id={id}/>
+                            <Imagem/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <BotaoIncrementar incrementar={incrementar}/>
+                            <BotaoIncrementar />
                         </td>
                         <td>
-                            <BotaoDecrementar decrementar={decrementar}/>
+                            <BotaoDecrementar />
                         </td>
                     </tr>
                 </tbody>

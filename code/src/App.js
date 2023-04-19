@@ -14,7 +14,8 @@ import './App.css';
 //import Votos from './components/atividade03/votos';
 //import VotaCidades from './components/atividade03/VotosV2';
 //import PokemonAxios from './components/10Axios/PokemonAxios'
-import TelaPrincipal from './components/11Redux/v1/TelaPrincipal'
+//import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
+import MeuIndex from './components/11Redux/v2/MeuIndex';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <Temperatura/>
     </div>*/
     <div className='App'>
-      <TelaPrincipal/>
+      <MeuIndex/>
     </div>
     //<Dados name="Jorge Eduardo" curso="CC" facul="UFC" />
     /*<div className='App'> 

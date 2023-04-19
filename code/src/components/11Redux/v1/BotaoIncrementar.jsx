@@ -1,9 +1,10 @@
-const BotaIncrementar = ({incrementar}) => {
-
+const BotaoIncrementar = ({incrementar}) => {
   return (
-    <button onClick={incrementar}>
-      +1
-    </button>
-  );
+      <>
+          <button onClick={incrementar}>
+              ID + 1
+          </button>
+      </>
+  )
 }
-export default BotaIncrementar;
+export default BotaoIncrementar

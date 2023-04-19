@@ -1,7 +1,7 @@
-const BotaoDecrementar = ({decrementar}) => {
+const BotaoDecrementar = () => {
   return (
       <>
-           <button onClick={decrementar}>
+           <button>
               ID - 1
           </button>
       </>
