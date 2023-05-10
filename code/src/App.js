@@ -15,15 +15,17 @@ import './App.css';
 //import VotaCidades from './components/atividade03/VotosV2';
 //import PokemonAxios from './components/10Axios/PokemonAxios'
 //import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
-import MeuIndex from './components/11Redux/v2/MeuIndex';
+//import MeuIndex from './components/11Redux/v2/MeuIndex';
+//import Cep from './teste/cep';
+import meuAsync from './components/12Promises/MeuAsync';
 
 function App() {
   return (
     /*<div className='App'>
       <Temperatura/>
     </div>*/
-    <div className='App'>
-      <MeuIndex/>
+    <div >
+      <meuAsync/>
     </div>
     //<Dados name="Jorge Eduardo" curso="CC" facul="UFC" />
     /*<div className='App'> 
