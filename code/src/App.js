@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 //import { Component } from 'react';
 import './App.css';
+//import MyMenu from './components/02Crud/MyMenuV1';
 //import Dados from "./components/01MeusDados"; 
 //import Dados from "./components/02MeusDados"; 
 //import Temperatura from "./components/03Temperatura"
@@ -17,7 +18,9 @@ import './App.css';
 //import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
 //import MeuIndex from './components/11Redux/v2/MeuIndex';
 //import Cep from './teste/cep';
-import meuAsync from './components/12Promises/MeuAsync';
+//import Signin from './components/13MUI/signin';
+//import MyMenu from './components/02Crud/MyMenuV0';
+import MainPage from './components/02Crud/MainPage';
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
       <Temperatura/>
     </div>*/
     <div >
-      <meuAsync/>
+      <MainPage/>
     </div>
     //<Dados name="Jorge Eduardo" curso="CC" facul="UFC" />
     /*<div className='App'> 
